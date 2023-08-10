@@ -1,4 +1,4 @@
-# hvranic.github.io software
+# software
 
 ## 7-Zip
 7-Zip is a file archiver with a high compression ratio. \
@@ -9,7 +9,7 @@ Notepad++ is a free source code editor and Notepad replacement that supports sev
 [https://notepad-plus-plus.org/downloads](https://notepad-plus-plus.org/downloads)
 
 ## Double Commander
-Double Commander is a free cross platform open source file manager with two panels side by side. \
+Double Commander is a free cross-platform open-source file manager with two panels side by side. \
 [https://sourceforge.net/p/doublecmd/wiki/Download/](https://sourceforge.net/p/doublecmd/wiki/Download/) \
 [korwin/doublecmd-all.7z](http://perserver.mine.nu:4885/install/korwin/doublecmd-all.7z)
 
@@ -33,5 +33,5 @@ TightVNC is a free and Open Source remote desktop software that lets you access 
 [sysinternals/downloads/autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns)
 
 ## SQLServer Express
-Microsoft SQL Server 2019 Express is a free, feature-rich editions of SQL Server that is ideal for learning, developing, powering desktop ... \
+Microsoft SQL Server Express is a free, feature-rich edition of SQL Server that is ideal for learning, developing, powering desktop ... \
 [install/soft/sql](http://perserver.mine.nu:4885/install/soft/sql)
