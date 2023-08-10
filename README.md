@@ -2,7 +2,9 @@
 
 ## 7-Zip
 7-Zip is a file archiver with a high compression ratio. \
-[https://www.7-zip.org/download.html]
+[https://www.7-zip.org/download.html](https://www.7-zip.org/download.html) \
+(https://www.7-zip.org/download.html) \
+[7-zip.org/download](https://www.7-zip.org/download.html) \
 
 ## Notepad++
 Notepad++ is a free source code editor and Notepad replacement that supports several languages. \
