@@ -23,7 +23,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
 ];
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-user',
   styleUrl: 'user.css',
   templateUrl: 'user.html',
   imports: [MatTableModule, Nav],
