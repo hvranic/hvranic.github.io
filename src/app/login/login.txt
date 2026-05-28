@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+  margin: 0;
+}
+.login-container {
+  padding: 20px;
+}
+
+<div class="login-container">
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <p>
+      <mat-form-field>
+        <mat-label>Username</mat-label>
+        <input matInput formControlName="username" type="text" />
+      </mat-form-field>
+    </p>
+
+    <p>
+      <mat-form-field>
+        <mat-label>Password</mat-label>
+        <input matInput formControlName="password" type="password" />
+      </mat-form-field>
+    </p>
+
+    <button mat-raised-button color="primary" type="submit" [disabled]="loginForm.invalid">Login</button>
+  </form>
+</div>

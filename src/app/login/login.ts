@@ -4,14 +4,19 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatButtonModule } from '@angular/material/button';
 import { Router } from '@angular/router';
+import { MatCardModule } from '@angular/material/card';
+
 
 @Component({
   selector: 'app-login',
-  imports: [ReactiveFormsModule, MatFormFieldModule, MatInputModule, MatButtonModule],
+  imports: [ReactiveFormsModule, MatFormFieldModule, MatInputModule, MatButtonModule, MatCardModule],
   templateUrl: './login.html',
+  styleUrl: './login.css',
 })
 export class Login {
   private readonly router = inject(Router);
+
+  isShowErrorAlert = false;
 
   protected readonly loginForm = new FormGroup({
     username: new FormControl('', { nonNullable: true, validators: [Validators.required] }),

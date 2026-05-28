@@ -4,10 +4,7 @@ import { RouterOutlet, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  template: `
-
-    <router-outlet />
-  `,
+  template: `<router-outlet />`,
   imports: [RouterOutlet],
 })
 export class App {

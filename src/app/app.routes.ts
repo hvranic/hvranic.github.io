@@ -14,6 +14,11 @@ export const routes: Routes = [
     title: 'App User Page',
     component: User,
   },
+    {
+    path: 'login',
+    title: 'App Login Page',
+    component: Login,
+  },
   {
     path: '',
     title: 'App Login Page',
